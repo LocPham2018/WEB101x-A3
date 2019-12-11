@@ -1,0 +1,197 @@
+﻿* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Tahoma;
+  font-size: 28px;
+}
+
+p,
+#detail a {
+  font-family: Calibri;
+  font-size: 14px;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#nav {
+  background-color: #556370;
+  padding: 20px 50px 40px;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.left,
+li {
+  float: left;
+}
+
+ul.right {
+  float: right;
+}
+
+li a {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+#header {
+  clear: both;
+  margin: 0;
+  padding: 50px;
+  border-bottom-style: solid;
+  border-color: black;
+  border-width: 0 0 1px;
+}
+
+#container {
+  float: left;
+  margin: 0;
+  padding: 20px 50px 10px;
+}
+
+#detail {
+  clear: both;
+  float: left;
+  margin: 0;
+  padding: 0 50px 50px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  padding: 10px 0;
+}
+
+/* Phone only */
+
+[class*="col-"] {
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+
+/*Tablet only */
+
+@media only screen and (min-width: 768px) {
+  .col-m-1 {
+    width: 8.33%;
+  }
+  .col-m-2 {
+    width: 16.66%;
+  }
+  .col-m-3 {
+    width: 25%;
+  }
+  .col-m-4 {
+    width: 33.33%;
+  }
+  .col-m-5 {
+    width: 41.66%;
+  }
+  .col-m-6 {
+    width: 50%;
+  }
+  .col-m-7 {
+    width: 58.33%;
+  }
+  .col-m-8 {
+    width: 66.66%;
+  }
+  .col-m-9 {
+    width: 75%;
+  }
+  .col-m-10 {
+    width: 83.33%;
+  }
+  .col-m-11 {
+    width: 91.66%;
+  }
+  .col-m-12 {
+    width: 100%;
+  }
+}
+
+/*Desktop only */
+
+@media only screen and (min-width: 992px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  #nav {
+    background-color: white;
+  }
+  li a {
+    color: black;
+  }
+  #header {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 140px 80px 300px;
+  }
+  #detail {
+    background-color: #f7f7f7;
+  }
+  #container {
+    background-color: #efefef;
+  }
+  h1 {
+    font-family: "Bookman Old Style";
+    font-size: 48px;
+    line-height: 0.05;
+  }
+  #header p {
+    font-size: 26px;
+  }
+}
